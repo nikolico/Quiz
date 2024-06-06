@@ -1,2 +1,55 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+
+print ("--------------------------------")
+
+print ("Willkomen zu meinem Quiz ---------- Erstellt von Ognjen Nikolic")
+
+print ("--------------------------------")
+
+playing = input ("Möchtest du mit dem Spiel anfangen?")
+
+if playing != "ja":
+    quit ()
+
+print ("Ein kleiner Hinweis: Du kannst auf die Fragen nur mit ja oder nein antworten! -- Lass uns beginnen!")
+score = 0
+
+answer = input ("Ist die Programmiersprache Python nach einer Schlange gennant?")
+if answer =="nein":
+    print ("Richtig! :)")
+    score += 1
+else:
+    print ("Falsch :(")
+
+answer = input ("Ist GitHub im Jahr 2010 im Internet erscheinen?")
+if answer =="nein":
+    print ("Richtig! :)")
+    score += 1
+else:
+    print ("Falsch :(")
+
+answer = input ("Endete der Zweite Weltkrieg im Jahr 1945?")
+if answer =="ja":
+    print ("Richtig! :)")
+    score += 1
+else:
+    print ("Falsch :(")
+
+answer = input ("Hat den Unternehmen Tesla Elon Musk erfunden?")
+if answer =="nein":
+    print ("Richtig! :)")
+    score += 1
+else:
+    print ("Falsch :(")
+
+answer = input ("Ist Office365 eine Plattform von Microsoft?")
+if answer =="ja":
+    print ("Richtig! :)")
+    score += 1
+else:
+    print ("Falsch :(")
+
+print ("Du hast " + str(score) + " von 5 Fragen richtig beantwortet!")
+print ("Du hast " + str(score/5 *100) + " % der Fragen richtig beantwortet!")
