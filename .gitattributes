@@ -1,7 +1,3 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-
-
 print ("--------------------------------")
 
 print ("Willkomen zu meinem Quiz ---------- Erstellt von Ognjen Nikolic")
